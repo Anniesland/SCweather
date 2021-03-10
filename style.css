@@ -56,3 +56,26 @@ p::first-letter {
   padding-top: 40px;
   margin: 5px 0;
 }
+@media only screen and (max-width: 1300px) {
+  /* For mobile phones: */
+  body {
+    margin: 0 auto;
+    font-size: 50%;
+    background-size: inherit;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 50%;
+  }
+  .rwm {
+    width: 0%;
+  }
+  #search-text-input {
+    width: 75%;
+  }
+}
